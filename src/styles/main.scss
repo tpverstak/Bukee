@@ -4,6 +4,8 @@
 @import "vendor/normalize";
 @import "components/sprite";
 
+$light-color:#fff;
+
 h1, h2, h3, h4, p {
     padding: 0;
     margin: 0;
@@ -17,6 +19,7 @@ body {
     background-image: url(../img/bg-main.png);
     background-repeat: no-repeat;
     background-size: cover;
+    color:$light-color;
 }
 
 .header {
